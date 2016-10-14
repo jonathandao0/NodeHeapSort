@@ -1,4 +1,4 @@
-This was a project I worked on in one of my ECE classes. The purpose was to implement a Heapsort using linked nodes in C#.
+This was a project I worked on in one of my ECE classes. The purpose was to implement a Heapsort using linked nodes in C++.
 
 https://en.wikipedia.org/wiki/Heapsort
 
