@@ -2,7 +2,7 @@ This was a project I worked on in one of my ECE classes. The purpose was to impl
 
 https://en.wikipedia.org/wiki/Heapsort
 
-I thought this was an interesting project because of my solution on how to build the heap initially. Since each node only has a pointer to only two nodes below it (left, right), and the initial implementation of how to insert a node is to specify the left pointer first, then the right pointer, you need to a way to constantly locate which root node to use to fill out the tree apropriately. Simply moving the root node down won't work because you would need to backtrack, which can quickly become complicated for large trees.
+I thought this was an interesting project because of my solution on how to build the heap initially. Since each node only has a pointer to only two nodes below it (left, right), and the initial implementation of how to insert a node is to specify the left pointer first, then the right pointer, you need to a way to constantly locate which root node to use to fill out the tree appropriately. Simply moving the root node down won't work because you would need to backtrack, which can quickly become complicated for large trees.
 
 The solution I came up seemed pretty ingenious for me, which was to use the number of the node and convert that to a binary value and then use that binary as a way to direct you to the root node to use.
 
